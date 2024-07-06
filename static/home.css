@@ -1,0 +1,58 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content vertically and horizontally */
+body, html {
+    height: 100%;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 56px; /* Increase the font size */
+}
+
+/* Style the form */
+form {
+    text-align: center;
+    max-width: 400px; /* Constrain the form within a maximum width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding to the form */
+    border: 2px solid #007BFF; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Style the input fields */
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #007BFF; /* Blue border */
+    border-radius: 5px;
+    width: 100%; /* Make input fields 100% wide within the form */
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB CRAWLER</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='home.css')}}">
+</head>
+<body>
+    <h1>
+        Web crawler
+    </h1>
+
+    <form method="POST" action="{{url_for('find')}}">
+        <b> <input type="text" name="a"> <br><br>
+            <input type="text" name="b"> <br><br>
+            <input type="text" name="c"> <br><br>
+            <input type="text" name="d"> <br><br>
+            <h3>Enter url here:</h3>
+            <input type="text" name="u"> <br><br><br></b>
+            <input type="submit", value="FIND">
+    </form>
+
+</body>
+</html>

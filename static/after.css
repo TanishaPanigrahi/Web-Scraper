@@ -1,0 +1,60 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content vertically and horizontally */
+body, html {
+    height: 100%;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 56px;
+}
+
+/* Style the list of found keywords */
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+/* Style each keyword item */
+li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the "Go back" link as a button */
+a {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding to make it look like a button */
+    background-color: #007BFF; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Add hover effect for the button */
+a:hover {
+    background-color: #0056b3;
+}
+
+
